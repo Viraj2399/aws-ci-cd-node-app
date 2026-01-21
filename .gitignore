@@ -1,0 +1,30 @@
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.backup
+*.tfvars
+crash.log
+override.tf
+override.tf.json
+*_override.tf
+
+# SSH Keys
+*.pem
+
+# VS Code
+.vscode/
+
+# Windows
+Thumbs.db
+.DS_Store
+
+# Optional
+coverage/
+dist/
+build/
