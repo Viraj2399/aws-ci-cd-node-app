@@ -33,25 +33,6 @@ It includes:
 
 ---
 
-## Folder Structure
-
-aws-ci-cd-node-app/
-│
-├─ .github/workflows/ci-cd.yml # GitHub Actions workflow
-├─ scripts/deploy.sh # Deployment script
-├─ src/
-│ └─ index.js # Node.js app entry point
-├─ terraform/
-│ ├─ main.tf # EC2 provisioning
-│ ├─ variables.tf # Variables file
-│ └─ outputs.tf # Outputs file
-├─ package.json
-├─ README.md
-└─ ...
-
-
----
-
 ## Features
 
 - Health endpoint: `/health` → returns `OK`
